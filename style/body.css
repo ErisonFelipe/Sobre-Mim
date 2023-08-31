@@ -1,0 +1,15 @@
+:root {
+    --font-primaria: #ffff;
+    --font-secundaria: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #000000;
+    color: var(--font-primaria);
+}
