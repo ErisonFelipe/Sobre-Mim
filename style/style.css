@@ -54,7 +54,8 @@ h2 {
     gap: 16px;
     width: 50%;
     text-align: center;    
-    border: 2px solid #22D4FD;
+    border-bottom: 2px solid #22D4FD;
+    border-left: 2px solid #22D4FD;
     border-radius: 8px;
     font-size: 1.5rem;
     font-weight: 600;
@@ -70,7 +71,8 @@ h2 {
 }
 
 .img {
-    border: #22D4FD solid 3px;
+    border-bottom: #22D4FD solid 3px;
+    border-left: #22D4FD solid 3px;
     width: 50%;    
     top: 235px;
     left: 1030px;

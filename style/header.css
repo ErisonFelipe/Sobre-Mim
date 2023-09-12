@@ -14,3 +14,7 @@ header {
        color: #22D4FD;
        text-decoration: none;
    }
+
+   @media screen and (max-width: 1500px){
+    
+   }
