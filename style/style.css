@@ -70,13 +70,17 @@ h2 {
     background-color: #272727;
 }
 
+.logo_home i {
+    color: #22D4FD;
+}
+
 .img {
     border-bottom: #22D4FD solid 3px;
     border-left: #22D4FD solid 3px;
     width: 50%;    
     top: 235px;
     left: 1030px;
-    border-radius: 16px;
+    border-radius: 16px;    
 }
 
 ul {
@@ -108,6 +112,14 @@ li img {
     border-radius: 5px;
 }
 
+.cursos a {
+    font-size: 1.5rem;
+    padding: 3px;
+    margin: 1px;
+    color: #22D4FD;
+    text-decoration: none;
+}
+
 .sobre {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
@@ -118,6 +130,15 @@ li img {
 
 .sobre_paragrafo {
     text-align: justify;
+}
+
+.sobre span {
+    font-size: 0.8rem;
+    background-color: #CECE5A;
+    padding: 1rem;
+    border-radius: 9px;
+    color: #272727;
+    font-family: 'Montserrat', sans-serif;;
 }
 
 @media (max-width: 1255px){
