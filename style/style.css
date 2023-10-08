@@ -1,24 +1,75 @@
-@import url("./variaveis.css");
-
-@import url("./header.css");
-@import url("./home.css");
-@import url("./sobre.css");
-@import url("./footer.css");
-
 body {
-    background-color: var(--cor-de-fundo);
-    color: var(--cor-do-texto);
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  background-color: #0F0F0F;
+  height: 100vh;
+  color: #F3F1F5;
 }
-
-li {
-    list-style-type: none;
+body nav {
+  background-color: #22D4FD;
 }
-
-a {
-    text-decoration: none;
+body a {
+  text-decoration: none;
 }
+body main {
+  margin: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+body main .img {
+  width: 40%;
+  border-radius: 8px;
+  border-bottom: #22D4FD solid 4px;
+  border-left: #22D4FD solid 4px;
+}
+body main div {
+  background-color: #232D3F;
+  text-align: center;
+  padding: 0.7rem;
+}
+body main div strong {
+  color: #068FFF;
+}
+body main div .contatos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+body main div .contatos a {
+  padding: 15px;
+}
+body main div .contatos p {
+  display: none;
+}
+body main div .habilidades {
+  height: 10rem;
+}
+body main div .aviso {
+  background-color: #C07F00;
+  border-radius: 5px;
+  color: var(--cor-de-fundo);
+}
+body main div .sobre_paragrafo {
+  text-align: justify;
+}
+body main .carousel-caption {
+  background-color: #606C5D;
+  border-radius: 8px;
+}
+body main .carousel-caption img {
+  opacity: 0.9;
+}
+body main .carousel-caption h5 {
+  color: #068FFF;
+}
+body footer {
+  background-color: #068FFF;
+}
+body footer div {
+  margin: auto;
+}
+body footer div p strong {
+  color: #C70039;
+}/*# sourceMappingURL=style.css.map */
